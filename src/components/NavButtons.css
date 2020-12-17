@@ -1,0 +1,39 @@
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.nav-buttons button {
+    color: #032B43;
+    background-color: #fdfcf1;
+    margin: 0 20px;
+    border-style: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav-buttons button.previous div {
+    padding-right: 6px;
+}
+
+.nav-buttons button.next div {
+    padding-left: 6px;
+}
+
+.nav-buttons button span {
+    float: left;
+}
+
+.nav-buttons button div {
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons button:disabled {
+    opacity: 0.5;
+}
